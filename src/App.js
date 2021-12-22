@@ -1,13 +1,12 @@
-import {useEffect} from 'react'
+import React from 'react'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Button from "react-bootstrap/Button";
-import Alert from "react-bootstrap/Alert";
-import Carousel from "react-bootstrap/Carousel";
-
+import FindByCity from './components/cityCelection/FindByCity';
 function App() {
   return (
     <div className="App">
+      <FindByCity/>
+
   </div>
   );
 }
